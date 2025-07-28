@@ -81,7 +81,7 @@ const Coin = () => {
         );
     } else {
         return (
-            <div className="flex items-center justify-center h-screen bg-black">
+            <div className="flex items-center justify-center h-screen bg-transparent">
                 <div className="relative w-20 h-20 rounded-full border-8 border-yellow-400 border-t-transparent animate-spin shadow-[0_0_30px_rgba(250,204,21,0.6)]">
 
 
