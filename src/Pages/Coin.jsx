@@ -81,28 +81,10 @@ const Coin = () => {
         );
     } else {
         return (
-            <div className="flex items-center justify-center h-screen bg-transparent">
-              <div className="relative w-20 h-20 rounded-full border-8 border-yellow-400 border-t-transparent animate-spin shadow-[0_0_30px_rgba(250,204,21,0.6)]">
-                
-              
-                <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-yellow-300/30 via-transparent to-yellow-100/20 animate-pulse"></div>
-                
-               
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10
-                             10-4.486 10-10S17.514 2 12 2zm.5 14h-1v-1h1v1zm1.93-4.36
-                             c-.32.29-.77.45-1.43.5v.86h-1v-.89c-.88-.11-1.5-.54-1.5-1.32h1
-                             c0 .28.25.47.72.47.39 0 .72-.17.72-.43 0-.18-.1-.31-.32-.41
-                             l-.87-.31c-1.03-.37-1.53-.95-1.53-1.77 0-.94.65-1.6 1.5-1.74V7h1v.89
-                             c.79.1 1.31.53 1.4 1.25h-1.03c-.05-.26-.27-.44-.65-.44-.37 0-.67.17-.67.45
-                             0 .22.12.38.41.49l.8.29c1.13.41 1.61.99 1.61 1.86 0 .43-.16.81-.57 1.17z"/>
-                  </svg>
-                </div>
-              </div>
+            <div className="spinner h-screen w-full flex justify-center items-center px-4">
+                <img className="w-20 sm:w-28 md:w-36" src={gold} alt="" />
             </div>
-          );
-          
+        );
     }
 };
 
